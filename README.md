@@ -1,6 +1,7 @@
 # Algoritma-konvolusi-1
 KonvolusiAlgoritma 
 
+```python
 import numpy as np
 
 # Definisikan matriks kernel/filter H (contoh: kernel 3x3)
@@ -38,8 +39,9 @@ for x in range(lebar_input - nFilterX + 1):
 # Cetak matriks citra output
 print("Matriks Citra Output Y:")
 print(Y)
-
-Penjelasan Kode
+```
+# penjelasan kode
+ 
 Kernel/Filter (H): Ini adalah matriks yang digunakan untuk konvolusi, yang menentukan transformasi yang diterapkan pada citra.
 Citra Input (X): Ini adalah matriks citra asli yang akan dikenakan konvolusi operasi.
 Citra Output (Y): Matriks ini menyimpan hasil dari konvolusi, diinisialisasi dengan nilai nol.
